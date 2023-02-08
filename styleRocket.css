@@ -1,0 +1,608 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.new{
+    text-decoration: none !important;
+    color:#ffff
+}
+.mainContainer{
+    background-image: linear-gradient(to right, #800000, #812020 ,#924c50);
+}
+#cecdcd
+.cardsRow1 {
+    padding: 80px 0px;
+    color: #ffff;
+}
+.cardsRow1 .col-md-4{
+    height: 400px;
+}
+.cardsRow1 .col-md-4 a{
+    text-decoration: none;
+    color: #ffff;
+    border: 3px solid rgb(247, 247, 247);
+    padding: 9px 15px;
+    font-size: 13px;
+}
+.cardsRow1 .bg-img1{
+    background-image: url('images/header_4.jpg');
+}
+.cardsRow1 .bg-img2{
+    background-image: url('images/header_2.jpg');
+}
+.cardsRow1 .bg-img3{
+        background-image: url('images/header_3.jpg');
+}
+.section1{
+    background-image:url('new1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.col-md-6 nav li a{
+    color: black;
+}
+.navBarBrand a img{
+    position: relative;
+    bottom: 14%;
+}
+.navBarIcons li{
+    display: inline-block;
+    list-style: none;
+    /* background-color: #800000; */
+}
+a{
+text-decoration: none;
+}
+  .dropdown-toggle::after {
+    display: none !important;
+}
+.dropdown-toggle::before {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+
+                                                                    /* END of navBarCSS */
+.section1Heading{
+    color: black;
+    font-size: 5rem;
+}   
+.bdrBtm{
+border-bottom: 1px solid #ffff;
+}
+.myBtn{
+    border-radius: 3rem !important;
+    width: 10rem !important;
+    padding: 0.5rem 0 0.5rem 0 !important;
+    font-weight: 500 !important;
+}
+                                                                    /* END of section1CSS */
+.t_div{
+    margin-top: -20px;
+}
+
+.section2 img{
+width: 400px;
+}
+.section2Heading1{
+    color: #800000;
+    font-weight: bold;
+    font-size: larger;
+}
+                                                                    /* END of section2CSS */
+.section3,.section5{
+background-color:#f6f6f6;
+}
+.section3Heading1{
+    color: #800000;
+    font-weight: bold;
+    font-size: larger;
+}
+.section3 .row .card{
+background-color: transparent !important;
+border: none !important;
+}
+.imgBox{
+width: 7rem;
+height: 7rem;
+border-radius: 3.5rem;
+background-color: #ffff;
+}
+.imgBox img{
+    width: 4rem;
+    padding-top: 1.3rem;
+
+}
+
+                                                                    /* END of section3CSS */
+.section4{
+    background-image: linear-gradient(to right, #800000, #701212);
+}
+.section4ply{
+    background-image: url(wdimg.jpg);
+}
+.section4fib{
+    background-image: url(wdimg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.section4sw{
+    background-image: url(wdimg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.section4b{
+    background-image: url(wd4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.section4 .row .col-md-6 button{
+    width: 14rem !important;
+    font-size: larger;
+}
+                                                                    /* END of section4CSS */
+
+.section5 .container .row .col-lg-7 img{
+width: 35rem;
+}           
+.progress-title {
+display: flex;
+}             
+.progPer{
+    margin-left: auto;
+}        
+.section5 .container .row ul{
+    display: flex;
+padding-left: 0px !important;    
+    }       
+.section5 .container .row ul li a{
+text-decoration: none;
+float: left;
+} 
+.section5 .container .row ul li a img{
+width: 3rem !important;
+}     
+.progress .progress-bar{
+    border-radius: 20px;
+    width: 0%;
+    }
+    
+    
+     .progress-bar{
+      overflow: visible;
+      position: relative;
+      display: none;
+    }
+    
+    .progressBarHead:hover .progress .progress-bar{
+      display: block;
+      border-radius: 20px;
+    border: 1px solid black;
+      -webkit-animation: animate-positive 5s;
+    animation: animate-positive 5s;
+    }
+    
+  .sliderRow .slide .row .carousel-item a .col-2{
+    width: 13% !important;
+  }
+  .sliderRow .slide .row .carousel-item a .col-3{
+    width: 17% !important;
+  } 
+  .palm{
+    background: url(palm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fer{
+    background: url(fer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .expo{
+    background: url(expo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer{
+    background-color: #800000;
+    border-top: 2px solid #cecdcd;
+}
+.secoundFooterContainerFluid{
+    background-color: #800000;
+}
+.inputRow .col-6 input,.row textarea{
+    border-radius: 0px !important;
+    background-color: #800000;
+}
+footer .container .col-md-6 p{
+    font-family: cursive;
+}
+.footerImagesDiv{
+    display: flex;
+    justify-content: right;
+}
+.border-none{
+    border:none !important;
+}
+.crdConatainer .row .card .main-card{
+ background-color: #f6f6f6;
+ border-radius: 15px;
+}
+.contContaier{
+    background-image: linear-gradient(to right, #800000, #c02626);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactForm .col-md-6{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 20px auto;
+}
+.contactForm .col-md-6 form input{
+    background-color: #ffff;
+    border: none;
+}
+.contactForm .col-md-6 form textarea{
+    border: none;
+}
+
+    @-webkit-keyframes animate-positive{
+    0%{width: 0;}
+    }
+    @keyframes animate-positive{
+    0%{width: 0;}
+    }             
+                  
+@media(max-width:768px){
+    .navBarBrand a img{
+        bottom: 25%;
+    }
+    .cardRow{
+display: grid !important;
+grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        width: 100% !important;
+    }
+    
+.section4 .container .row .col-md-6 h1{
+    font-size: x-large;
+}
+.section4 .container .row .col-md-6 button{
+    font-size: medium;
+    width: 11rem !important;
+}
+.section5 .container .row ul{
+    justify-content: center;
+    }       
+}
+.card1{
+    border-radius: 10px;
+}
+
+/* login */
+#log_b{
+    background-image: linear-gradient(to right, #800000, #d33c3c);
+}
+
+#logreg-forms{
+    width:412px;
+    margin:10vh auto;
+    background-color:#f3f3f3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin-top: -115px;
+    border: none;
+}
+#logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+#logreg-forms .form-control:focus { z-index: 2; }
+#logreg-forms .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#logreg-forms .form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#logreg-forms .social-login{
+    width:390px;
+    margin:0 auto;
+    margin-bottom: 14px;
+}
+#logreg-forms .social-btn{
+    font-weight: 100;
+    color:white;
+    width:190px;
+    font-size: 0.9rem;
+}
+
+#logreg-forms a{
+    display: block;
+    padding-top:10px;
+    color:lightseagreen;
+}
+
+#logreg-form .lines{
+    width:200px;
+    border:1px solid red;
+}
+
+/* navbarcss */
+.navbarcss{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    
+}
+
+
+
+#logreg-forms button[type="submit"]{ margin-top:10px; }
+
+#logreg-forms .facebook-btn{  background-color:#3C589C; }
+
+#logreg-forms .google-btn{ background-color: #DF4B3B; }
+
+#logreg-forms .form-reset, #logreg-forms .form-signup{ display: none; }
+
+#logreg-forms .form-signup .social-btn{ width:210px; }
+
+#logreg-forms .form-signup input { margin-bottom: 2px;}
+
+.form-signup .social-login{
+    width:210px !important;
+    margin: 0 auto;
+}
+
+
+
+
+@media(max-width:767px)
+{
+.navbar-toggler
+{
+    position: absolute;
+    top: -85px;
+    right: 0;  
+}  
+
+.cardRow{
+grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:500px){
+    #logreg-forms{
+        width:300px;
+    }
+    
+    #logreg-forms  .social-login{
+        width:200px;
+        margin:0 auto;
+        margin-bottom: 10px;
+    }
+    #logreg-forms  .social-btn{
+        font-size: 1.3rem;
+        font-weight: 100;
+        color:white;
+        width:200px;
+        height: 56px;
+        
+    }
+    #logreg-forms .social-btn:nth-child(1){
+        margin-bottom: 5px;
+    }
+    #logreg-forms .social-btn span{
+        display: none;
+    }
+    #logreg-forms  .facebook-btn:after{
+        content:'Facebook';
+    }
+  
+    #logreg-forms  .google-btn:after{
+        content:'Google+';
+    }
+    
+}
+
+img
+{
+    max-width: 100%;
+}
+
+/* login end */
+@media(max-width:640px){
+    /* .navBarBrand a img{
+        bottom: 30%;
+    }
+
+     */
+    .section1Heading{
+        font-size: 3.6rem;
+    }   
+    .section1SubHeading{
+        font-size:0.8rem;
+    }
+    .section1SubHeading1{
+        font-size:0.7rem;
+    }
+    .myBtn{
+        font-size: medium !important;
+        width: 8rem !important;
+         border-radius: 2.5rem !important;
+        padding: 0.3rem 0.5rem 0.3rem 0.5rem !important;   
+    }
+    .section2Heading1{
+        font-size: 0.85rem;
+        margin-top: 1rem;
+    }
+    .section2Heading2{
+        font-size: 2rem !important;
+    }   
+    .section2 .row .col-md-6 p{
+        font-size: 0.9rem;
+    }
+    .section3Heading1{
+margin-top: 30px !important;
+}
+.section5 .container .row ul li a img {
+width: 2rem !important;
+}
+     }
+
+
+
+     @media(max-width:480px){
+.navbar-collapse{
+    position: relative;
+    right: 40px;
+}
+.section2Heading1{
+    font-size: 0.7rem;
+}
+.section2Heading2{
+    font-size: 1.8rem !important;
+}   
+.section2 .row .col-md-6 p{
+    font-size: 0.8rem;
+}
+.section3Heading1{
+font-size: large;
+margin-top:30px !important;
+}
+.section3Heading2{
+    font-size: 1.6rem !important;
+}
+.section3Para1{
+    font-size: 0.9rem !important;
+}
+.lastCard .card-title{
+    font-size: 1.12rem !important;
+}
+.card > .lastCard{
+    padding: auto 0 auto 0 !important;
+}
+.section4 .container .row .col-md-6 h1{
+    font-size: 1.47rem;
+}
+.section4 .container .row .col-md-6 button{
+    width: 8rem !important;
+}
+.section5 .container .row .col-lg-5 p{
+font-size: 0.9rem;
+}
+}
+
+
+@media(max-width:360px){
+ .section1 .container .row1{
+display: grid !important;
+grid-template-columns: 1fr 2fr;
+}
+.navBarBrand{
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+}
+.navBarIcons{
+    margin-top: 2rem !important;
+    justify-self: right;
+} 
+.navbar-collapse{
+ position:relative;
+ right: 0;
+}
+.section1Heading{
+    font-size: 3rem;
+}
+.row>.section1Heading{
+padding: 0px !important;
+}
+.section2 .row{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.section2 .row .col-6{
+    width: 100% !important;
+}
+.section2 img{
+    width: 12rem;
+    }
+.section2Heading1{
+        font-size: 0.88rem;
+    }
+.section2Heading2{
+        font-size: 1.8rem !important;
+    }   
+.section2 .row .col-md-6 p{
+        font-size: 0.83rem;
+    }
+    .cardRow{
+        grid-template-columns: auto !important;
+    }
+    .section4 .container .row{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .section4 .container .row .col-md-6{
+        width: 100%;
+    }
+    .section4 .container .row .col-md-6 h1{
+        font-size: 1.4rem;
+    }
+    .sliderRow .slide .row .carousel-item a .col-2 img{
+        width: 18% !important;
+      } 
+  .sliderRow .slide .row .carousel-item a .col-3 img{
+    width: 20% !important;
+  } 
+}
+
+
+
+@media(max-width:320px){
+    .section1Heading{
+        font-size: 2.5rem;
+    }
+    .section1SubHeading{
+        font-size:0.6rem;
+    }
+    .myBtn{
+        font-size: small !important;
+        width: 7rem !important;
+    }
+
+    }
